@@ -1,0 +1,36 @@
+#navbar {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;  
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50%;  
+}
+
+#horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;  
+}
+
+#horizontal-menu li {
+    margin-left: 20px;
+}
+
+#horizontal-menu a {
+    text-decoration: none;
+    color: rgb(167, 164, 11);
+    padding: 10px 15px;
+    display: block;
+}
+
+#horizontal-menu a.active {
+    background-color: yellow;
+    color: white;
+}
