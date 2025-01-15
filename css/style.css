@@ -34,3 +34,18 @@
     background-color: yellow;
     color: white;
 }
+#horizontal-menu  a:hover {
+    color: white; 
+    background-color: rgb(167, 164, 11);
+}
+h1{
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(148, 138, 0); 
+    margin-left: 640px;
+}
+h2{
+    margin-left: 700px;
+    margin-top: 700px;
+    color:rgb(148, 138, 0); 
+}
